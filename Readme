@@ -1,4 +1,4 @@
 // first use make to compile my code
 > make 
 // run my code
-> ./0610159_lab2.o [input.in][output file name]
+> ./main.o [input.in][output file name]

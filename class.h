@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 using namespace std;
 
 class Net
@@ -44,5 +46,37 @@ public:
         x = a.x;
         y = a.y;
         return *this;
+    }
+};
+
+class key
+{
+private:
+    position start, end;
+
+public:
+    int x, y;
+    key()
+    {
+        x = 0;
+        y = 0;
+    }
+    void set_start(int a, int b)
+    {
+        start.x = a;
+        start.y = b;
+    }
+    void set_end(int a, int b)
+    {
+        end.x = a;
+        end.y = b;
+    }
+    position get_start()
+    {
+        return start;
+    }
+    position get_end()
+    {
+        return end;
     }
 };
