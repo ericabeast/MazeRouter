@@ -1,3 +1,3 @@
 .PHONY: all
 all:
-	g++ main.cpp -o run.o
+	g++ -o run lab2_try.cpp
